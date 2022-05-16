@@ -17,22 +17,11 @@
       <!-- Changelog tab content -->
        <div class="tab-pane " id="control-sidebar-info-tab">
           <div class="text-center">
-              <h3 class="control-sidebar-heading">ABOUT SXIMO 5 </h3>
-              Version : 5.1.7 <br />
-              Date : Nov 26 , 2016 <br /><br />
-              <b>Changelog</b>
-            </div>
-              <hr />
-            
-              <ol style="padding: 0; margin: 0 ; list-style: none;">
-                <li> <b>Changed</b> : Core Admin Template </li>
-                 <li> <b>Added</b> : RestAPI CLient Editor </li>
-
-              </ol>
+              
 
               <hr/>
               <div class="text-center">
-                <a href="javascript:void(0)" onclick="SximoModal('{{ url('core/template/changelog') }}','Sximo5 Changelog')"> All Changelogs </a> 
+                <a href="javascript:void(0)" onclick=""> </a> 
               </div>
       </div>   
       <!-- Home tab content -->

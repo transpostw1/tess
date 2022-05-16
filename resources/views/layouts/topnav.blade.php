@@ -149,7 +149,7 @@
                                      <li><a href="{{ url('core/elfinder')}}"><i class="icon-folder"></i>  File Manager</a>  </li>
                                     <li><a href="{{ url('sximo/server/repository')}}"><i class="icon-share"></i>  Repositories </a>  </li>
                                       <li role="separator" class="divider"></li>
-                                      <li> <a href="{{ url('sximo/server')}}" onclick="SximoModal(this.href, 'About Sximo'); return false "><i class="icon-info"></i> About Sximo  </a> </li>
+                                      <li> <a href="" onclick=""><i class="icon-info"></i></a> </li>
                                      <li> <a href="{{ url('sximo/config/clearlog')}}" class="clearCache"><i class="icon-trash"></i> Clear Log & Caches </a> </li>
                                     <!--
                                         <li><a href="{{ url('core/forms')}}"><i class="icon-list"></i> {{ Lang::get('core.m_formbuilder') }}</a> </li>
