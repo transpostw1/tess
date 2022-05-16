@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 16, 2022 at 11:04 PM
+-- Generation Time: May 16, 2022 at 11:12 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.5
 
@@ -94,19 +94,15 @@ CREATE TABLE `customer` (
   `kyc` varchar(255) NOT NULL,
   `gst_certificate` varchar(255) NOT NULL,
   `pan_card` varchar(255) NOT NULL,
-  `comments` varchar(255) NOT NULL,
-  `created_at` date NOT NULL,
-  `modified_at` date NOT NULL,
-  `created_by` int(11) NOT NULL,
-  `modified_by` int(11) NOT NULL
+  `comments` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `customer`
 --
 
-INSERT INTO `customer` (`ID`, `name`, `email`, `phone`, `contact_person`, `shipper_forwarder`, `shipper_name`, `kyc`, `gst_certificate`, `pan_card`, `comments`, `created_at`, `modified_at`, `created_by`, `modified_by`) VALUES
-(24, 'test', 'test', 0, '', '', '', '', '', '', '', '0000-00-00', '0000-00-00', 0, 0);
+INSERT INTO `customer` (`ID`, `name`, `email`, `phone`, `contact_person`, `shipper_forwarder`, `shipper_name`, `kyc`, `gst_certificate`, `pan_card`, `comments`) VALUES
+(24, 'test', 'test', 0, '', '', '', '', '', '', '');
 
 -- --------------------------------------------------------
 
