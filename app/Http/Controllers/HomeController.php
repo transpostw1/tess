@@ -29,7 +29,7 @@ class HomeController extends Controller {
 	{
 
 		// echo 'hi'; exit;
-		return redirect()->route('Dashboard');
+		//return redirect()->route('Dashboard');
         \App::setLocale(\Session::get('lang'));
 
 		if(config('sximo.cnf_front') =='false' && $request->segment(1) =='' ) :
