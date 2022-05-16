@@ -17,10 +17,14 @@ Route::get('/', function () {
 */
 
 //Default Controller
-Route::get('/', 'HomeController@index');
+Route::get('/', function () {
+    // Update the user's profile...
+ 
+    return redirect('/dashboard');
+});
+
 Route::post('/home/submit', 'HomeController@submit');
 Route::get('/home/skin/{any?}', 'HomeController@getSkin');
-
 
 Route::get('dashboard/import', 'DashboardController@getImport');
 /* Auth & Profile */
