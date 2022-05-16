@@ -17,12 +17,7 @@ Route::get('/', function () {
 */
 
 //Default Controller
-Route::get('/', function () {
-    // Update the user's profile...
- 
-    return redirect('/dashboard');
-});
-
+Route::get('/', 'HomeController@index');
 Route::post('/home/submit', 'HomeController@submit');
 Route::get('/home/skin/{any?}', 'HomeController@getSkin');
 
